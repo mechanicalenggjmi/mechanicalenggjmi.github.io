@@ -83,7 +83,8 @@ nav li a {
 .nav-link:hover {
     color: #046b09;
     /* font-weight: 2500; */
-    font-size: 17px;
+    /* font-size: 17px; */
+    transform:scale(1.1);
 }
 
 .hamburger {
@@ -281,7 +282,10 @@ nav li a {
     margin-top: 20px;
     height: 350px;
 }
-
+.slideshow-container img{
+ object-fit: cover;
+ object-position: center;
+}
 .mySlides {
     display: none;
 }
