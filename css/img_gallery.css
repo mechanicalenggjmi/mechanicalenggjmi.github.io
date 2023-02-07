@@ -167,7 +167,7 @@ nav li a {
 /*  #################   Image Gallery  ########################## */
 
 .header{
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url('../Images/canteen.jpg');
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url('../images/canteen.jpg');
     height: 70vh;
     background-position: center;
     background-size: cover;

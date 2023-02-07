@@ -171,7 +171,7 @@ nav li a {
 .header{
     height: 70vh;
     width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url('../Images/gallery/g1.jpeg');
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url('../images/gallery/g1.jpeg');
     box-shadow: 7px 7px 12px #333;
     margin-bottom: 50px;
 }
