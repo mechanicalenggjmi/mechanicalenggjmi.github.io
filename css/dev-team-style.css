@@ -406,8 +406,13 @@ nav li a {
     padding: 5px;
     margin-bottom: 10px;
 }
-.lastfooter a{
-    color: #fff;
+.lastfooter h3 a {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #56ab2f 0%, #a8e063  51%, #56ab2f  100%);
+    border-radius: 2rem;
+    padding:0.5rem 1.5rem;
+    margin: 3px 0;
 }
 /* ######################  update  ################################3 */
 .showcase-container-1 .card{
