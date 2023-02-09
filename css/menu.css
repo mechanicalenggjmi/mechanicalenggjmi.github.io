@@ -230,6 +230,10 @@ nav li a {
 .lastfooter h3 a {
     text-decoration: none;
     color: white;
+    background-image: linear-gradient(to right, #56ab2f 0%, #a8e063  51%, #56ab2f  100%);
+    border-radius: 2rem;
+    padding:0.5rem 1.5rem;
+    margin: 3px 0;
 }
 
 @media(max-width:850px) {

@@ -21,9 +21,9 @@ html {
 }
 header {
     background-color: white;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
-    z-index: 10;
+    /* z-index: 10; */
     margin-bottom: 15px;
 }
 
@@ -54,7 +54,7 @@ nav li a {
 }
 
 .navbar {
-    position: fixed;
+    /* position: fixed; */
     top: 0px;
     min-height: 70px;
     display: flex;
@@ -161,6 +161,12 @@ nav li a {
 }
 #bg{
     width: 100%;
+    height: 300px;
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/Teacher Images/bg.jpg');
+    display: block;
+    background-size: cover;
+    background-position: bottom;
+    filter: blur(0.06rem);
 }
 #bg img{
   height: 60vh;
@@ -178,7 +184,7 @@ nav li a {
 }
 .row1, .row2, .row3{
     box-shadow: 10px 12px 12px #555;
-    height: 200px;
+    /* height: 200px; */
     margin: 2rem 0px;
     background-color: #fff;
     margin-right: 30px;
@@ -187,12 +193,12 @@ nav li a {
 .row1 .img-box ,.row2 .text, .row3 .img-box{
     float: left;
     width: 50%;
-    height: 100%;
+    /* height: 100%; */
 }
 .row2 .img-box, .row1 .text, .row3 .text{
     float: right;
     width: 50%;
-    height: 100%;
+    /* height: 100%; */
 }
 .row::after{
     content: '';
@@ -210,7 +216,7 @@ nav li a {
     object-fit: cover;
 }
 .container{
-    width: 1200px;
+  max-width: 1200px;
     margin: auto;
 }
 .flex{
@@ -228,31 +234,17 @@ nav li a {
     margin: 40px;
     margin-left: 60px;
 }
-@media(max-width:850px){
-    .flex{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    #bg img{
-        width: 100%;
-    }
-    .lastfooter {
-        height: 120px;
-        flex-direction: column;
-    }
-
-    .lastfooter h3 {
-        margin: 3px 0;
-    }
-  
-}
 .heading{
     width: 100%;
     height: 4rem;
     background-color: #046b09;
     color: white;
     text-align: center;
+}
+.faculty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .lastfooter {
     height: 4rem;
@@ -266,4 +258,53 @@ nav li a {
 .lastfooter h3 a {
     text-decoration: none;
     color: white;
+    background-image: linear-gradient(to right, #56ab2f 0%, #a8e063  51%, #56ab2f  100%);
+    border-radius: 2rem;
+    padding:0.5rem 1.5rem;
+    margin: 3px 0;
+}
+@media(max-width:850px){
+    .row .img-box,.row .text{
+        float: none;
+        display: block;
+        width: 100%;
+        font-size: 15px;
+    }
+    .img-box img{
+        height: 130px;
+        width: 130px;
+        border-radius: 10px;
+        margin: 20px;
+        margin-left: 40px;
+    }
+    .showcase img{
+        display: inline-block;
+        width: 50%;
+        height: 50%;
+        object-fit: cover;
+    }
+    .showcase .text{
+        padding: 1.5rem;
+    }
+    .flex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #bg img{
+        width: 100%;
+    }
+    .lastfooter {
+        height: 10rem;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .lastfooter h3 a{
+        background-image: linear-gradient(to right, #56ab2f 0%, #a8e063  51%, #56ab2f  100%);
+        border-radius: 2rem;
+        padding:0.5rem 1.5rem;
+        margin: 3px 0;
+    }
+  
 }
