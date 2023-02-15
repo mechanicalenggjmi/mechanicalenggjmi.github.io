@@ -362,7 +362,7 @@ nav li a {
 }
 
 .card3 .card-front{
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../images/masle.jpg');
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('../images/masle.jpeg');
     background-position: center;
     background-size: cover;
 }
